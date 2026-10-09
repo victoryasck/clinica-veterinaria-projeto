@@ -16,7 +16,7 @@ Em desenvolvimento.
 - [x] Imagens de exemplo
 - [x] Script em JavaScript
 - [X] Seção "Serviços"
-- [ ] Seção "Contato"
+- [X] Seção "Contato"
 
 ## Tecnologias
 
