@@ -1,6 +1,6 @@
 # Clínica Veterinária Maryana
 
-Exemplo de um site institucional da clínica veterinária da Maryana, com foco em apresentar a clínica de forma acolhedora e profissional para os tutores. 
+Exemplo de um site institucional da Maryana, médica veterinária, com foco em apresentar a profissional e a clínica de forma acolhedora e profissional para os tutores. 
 
 ## Sobre o projeto
 
@@ -13,7 +13,9 @@ Em desenvolvimento.
 - [x] Cabeçalho com logo e menu de navegação
 - [x] Seção inicial (hero) com chamada para agendamento
 - [x] Seção "Sobre a clínica"
-- [ ] Seção "Serviços"
+- [x] Imagens de exemplo
+- [x] Script em JavaScript
+- [X] Seção "Serviços"
 - [ ] Seção "Contato"
 
 ## Tecnologias
@@ -27,7 +29,7 @@ Em desenvolvimento.
 ````
 clinica-veterinaria-projeto/
 ├── css/            # Estilos do site
-├── images/         # Logo e imagens
+├── imagens/        # Logo e imagens de exemplo
 ├── js/             # Scripts
 ├── index.html      # Página principal
 └── package.json
@@ -37,10 +39,10 @@ clinica-veterinaria-projeto/
 
 Não é preciso instalar nada. Clone o repositório e abra o arquivo no navegador:
 
-```bash
+````bash
 git clone https://github.com/victoryasck/clinica-veterinaria-projeto.git
 cd clinica-veterinaria-projeto
-```
+````
 
 Depois abra o `index.html` no navegador. Se preferir, use a extensão **Live Server** no VS Code.
 
