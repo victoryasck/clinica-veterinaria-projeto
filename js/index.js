@@ -27,3 +27,23 @@ dots.forEach((dot, index) => {
     updateCarousel();
   });
 });
+
+const menuToggle = document.querySelector('.menu-toggle');
+const siteNav = document.querySelector('.site-nav');
+
+menuToggle.addEventListener('click', () => {
+  const isOpen = siteNav.classList.toggle('open');
+  menuToggle.setAttribute('aria-expanded', isOpen);
+});
+
+document.querySelectorAll('.site-nav a').forEach((link) => {
+  link.addEventListener('click', () => {
+    siteNav.classList.remove('open');
+    menuToggle.setAttribute('aria-expanded', 'false');
+  });
+});
+
+document.addEventListener('keydown', (event) => {
+  if (event.key === 'ArrowRight') nextButton.click();
+  if (event.key === 'ArrowLeft') prevButton.click();
+});
